@@ -1,0 +1,102 @@
+/* SlotMachineJP 解析サイト — パチスロ風カスタムCSS */
+
+:root {
+  --vp-c-brand-1: #e63946;
+  --vp-c-brand-2: #d62839;
+  --vp-c-brand-3: #c1121f;
+  --vp-c-brand-soft: rgba(230, 57, 70, 0.14);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #e63946, #f4a261);
+}
+
+.dark {
+  --vp-c-bg: #0d1117;
+  --vp-c-bg-soft: #161b22;
+  --vp-c-bg-mute: #21262d;
+  --vp-c-divider: #30363d;
+}
+
+/* テーブルスタイル — 解析表 */
+.vp-doc table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.vp-doc th {
+  background: var(--vp-c-bg-mute);
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 12px;
+  white-space: nowrap;
+}
+
+.vp-doc td {
+  text-align: center;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc tr:hover td {
+  background: var(--vp-c-brand-soft);
+}
+
+/* 設定表の色分け */
+.vp-doc table .setting-high {
+  color: #e63946;
+  font-weight: 700;
+}
+
+.vp-doc table .setting-low {
+  color: #457b9d;
+}
+
+/* Hero カスタム */
+.VPHero .tagline {
+  font-size: 1.1em !important;
+  opacity: 0.85;
+}
+
+/* ティップスボックス */
+.custom-block.tip {
+  border-color: var(--vp-c-brand-1);
+}
+
+.custom-block.warning {
+  border-color: #f4a261;
+}
+
+/* バッジ風ラベル */
+.badge-at {
+  display: inline-block;
+  background: linear-gradient(135deg, #e63946, #d62839);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.badge-cz {
+  display: inline-block;
+  background: linear-gradient(135deg, #2a9d8f, #264653);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.badge-bonus {
+  display: inline-block;
+  background: linear-gradient(135deg, #f4a261, #e76f51);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 700;
+  vertical-align: middle;
+}
