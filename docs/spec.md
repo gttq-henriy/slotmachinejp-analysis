@@ -14,19 +14,19 @@
 
 ## 払い出し（3つ揃い）
 
-| 図柄 | 配当（倍率） | 3 scrap 時の払い出し |
-|------|------------|-------------------|
-| Charcoal（炭） | 3倍 | 9 scrap |
-| Wood（木材） | 4倍 | 12 scrap |
-| Rope（ロープ） | 6倍 | 18 scrap |
-| Bandage（包帯） | 7倍 | 21 scrap |
-| Low Grade Fuel | 10倍 | 30 scrap |
-| Sulfur Ore（硫黄） | 15倍 | 45 scrap |
-| Scrap | 50倍 | 150 scrap |
-| Lucky Seven（7） | 15倍 + AT突入 | 45 scrap + AT |
+| 図柄 | 配当（ベット×1） | ベット×3 時 |
+|------|----------------|------------|
+| Charcoal（炭） | 3 scrap | 9 scrap |
+| Wood（木材） | 3 scrap | 9 scrap |
+| Rope（ロープ） | 4 scrap | 12 scrap |
+| Bandage（包帯） | 5 scrap | 15 scrap |
+| Low Grade Fuel | 6 scrap | 18 scrap |
+| Sulfur Ore（硫黄） | 7 scrap | 21 scrap |
+| Scrap | 10 scrap | 30 scrap |
+| Lucky Seven（7） | 15 scrap + AT | 45 scrap + AT |
 
 ::: tip ポイント
-**Lucky Seven（7揃い）** は配当15倍に加えて **AT「7 RUSH」** に突入する特別図柄です。通常時の7揃い確率は極めて低く（重み6/65536 ≒ 0.009%）、基本的にはCZ経由でATを目指します。
+**Lucky Seven（7揃い）** は配当15 scrapに加えて **AT「7 RUSH」** に突入する特別図柄です。通常時の7揃い確率は極めて低く（重み6/65536 ≒ 0.009%）、基本的にはCZ経由でATを目指します。
 :::
 
 ## Low Grade Face 配当
